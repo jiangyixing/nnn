@@ -1,3 +1,4 @@
+
 (.venv) root@735f5acae43a:/# vllm serve /models/Qwen/Qwen3-8B-AWQ   --host 0.0.0.0   --port 80  --served-model-name qwen3:8b --tensor-parallel-size 2 --enable-prefix-caching --enable-chunked-prefill --max-model-len 32768 --performance-mode throughput --tool-call-parser qwen3_coder --enable-auto-tool-choice --reasoning-parser qwen3  --gpu-memory-utilization 0.2
 (APIServer pid=1444) INFO 05-11 03:01:02 [utils.py:302] 
 (APIServer pid=1444) INFO 05-11 03:01:02 [utils.py:302]        █     █     █▄   ▄█
